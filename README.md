@@ -5,7 +5,7 @@ Se placer dans le répertoire "prog" et taper `make` dans la console.
 
 ## Exécuter le programme
 Écrire `./main` dans la console (toujours dans le répertoire "prog").  
-L'opérateur devra alors choisir s'il veut exécuter la simulation avec des paramètres par défaut où s'il veut les définir (tout se fait dans la console). Le programme affichera alors les résultats suivants :
+L'opérateur devra alors choisir s'il veut exécuter la simulation avec des paramètres par défaut où s'il veut les définir (tout se fait dans la console). Le programme affichera les résultats suivants :
 - Le coût total de la maintenance du parc (en k€)
 - La production totale du parc (en MW)
 - La production journalière moyenne (en MW)
