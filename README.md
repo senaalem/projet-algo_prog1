@@ -23,7 +23,7 @@ Il y a un total de sept modules :
 - **trouve_min** : contient la fonction `trouve_min` qui renvoie l'élément le plus petit d'une liste de flottants.
 
 ## Choix techniques
-Pour gérer l'état des éoliennes, il a été décidé d'utiliser une variable globale `int* maintenance`, définie dans la fonction `affichage_resultats`. Chaque case de ce tableau correspond à une éolienne. Son état est representé par un entier : $0$ pour fonctionelle, et $i$ pour $i$ jours de maintenance restants.  
+Pour gérer l'état des éoliennes, il a été décidé d'utiliser une variable globale `int* maintenance`, définie dans la fonction `affichage_resultats`. Chaque case de ce tableau correspond à une éolienne. Son état est representé par un entier : $0$ pour fonctionelle, et $i$ pour $i-1$ jours de maintenance effectués.  
 La fonction `fin_jour` va prendre en paramètre l'adresse de `maintenance` et actualiser ses valeurs en fonction de la force du vent et des jours qu'elle aura passé en maintenance, etc. puis compter les cases à $0$ pour renvoyer le nombre d'éoliennes encore en état de marche.
 
 La simulation se fait dans `affichage_resultats` via une boucle `for` (chaque itération correspond à un jour). À la fin de la boucle, la simulation est finie et on affiche les résultats.
