@@ -1,7 +1,7 @@
 # README
 
 ## Générer l'exécutable
-Se placer dans le répertoire "prog" et taper `make` dans la console.
+Une fois l'ensemble des fichiers téléchargés, se placer dans le répertoire "prog" et taper `make` dans la console.
 
 ## Exécuter le programme
 Écrire `./main` dans la console (toujours dans le répertoire "prog").  
